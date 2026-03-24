@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analyzer"
+version = "0.1.0"
+description = "Repository analyzer CLI"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.setuptools]
+packages = ["analyzer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
